@@ -46,7 +46,7 @@ Note: CPU transcription is significantly slower (5-10x). Performance depends on 
 | `Qwen/Qwen3-ASR-0.6B` | 0.6B params | Fast inference, lower VRAM |
 | `Qwen/Qwen3-ASR-1.7B` | 1.7B params | Higher accuracy, more VRAM |
 
-The notebook defaults to 0.6B. Change `model_name` in Block 3 to switch.
+The notebook defaults to 0.6B. Change `model_name` in Block 4 to switch.
 
 ## Requirements
 
@@ -57,8 +57,6 @@ Python dependencies (installed automatically in Colab):
 
 ```
 qwen-asr
-torch
-torchaudio
 librosa
 soundfile
 ```
@@ -96,4 +94,6 @@ soundfile
 
 ## License
 
-Check the [Qwen3 model license](https://huggingface.co/Qwen/Qwen3-ASR-0.6B) for usage terms.
+This project is licensed under the [MIT License](LICENSE).
+
+The Qwen3-ASR model weights are licensed separately — check the [Qwen3 model license](https://huggingface.co/Qwen/Qwen3-ASR-0.6B) for usage terms.
