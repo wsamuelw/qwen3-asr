@@ -1,0 +1,5 @@
+clean_audio.wav
+transcription.txt
+__pycache__/
+*.pyc
+.DS_Store
