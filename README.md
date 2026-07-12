@@ -26,7 +26,7 @@ Audio file (.wav, .mp3, etc.)
         ↓
   Qwen3-ASR transcription
         ↓
-  Text output + saved reference file
+  Text output + saved transcription file
 ```
 
 ## Performance
