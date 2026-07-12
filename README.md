@@ -19,14 +19,11 @@ A lightweight wrapper for [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-0.6B
 
 Takes any audio file and converts spoken language into text transcription:
 
-```
-Audio file (.wav, .mp3, etc.)
-        ↓
-  Load & resample to 16kHz mono
-        ↓
-  Qwen3-ASR transcription
-        ↓
-  Text output + saved transcription file
+```mermaid
+graph LR
+    A[🎤 Audio file] --> B[🔄 Resample to 16kHz mono]
+    B --> C[🤖 Qwen3-ASR transcription]
+    C --> D[📝 Text output]
 ```
 
 ## Performance
