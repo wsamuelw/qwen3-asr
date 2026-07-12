@@ -63,13 +63,11 @@ soundfile
 
 ## Use Cases
 
-- **Meeting transcription** — Record meetings and get searchable text
-- **Interview processing** — Transcribe interviews for analysis
-- **Content creation** — Convert podcasts/videos to written content
-- **Accessibility** — Add captions or transcripts to audio content
-- **Data labelling** — Bootstrap training data for NLP tasks
-- **Voice notes** — Turn voice memos into written notes
-- **Multi-language transcription** — Automatic language detection across 20+ languages
+- **Video subtitling** — Auto-generate subtitles for YouTube, courses, and marketing videos
+- **Call centre analytics** — Transcribe customer calls for sentiment analysis and QA
+- **Meeting minutes** — Auto-generate searchable summaries from meeting recordings
+- **Podcast show notes** — Convert episodes to written content and timestamps
+- **Voice-to-text integration** — Embed speech-to-text into apps and automation pipelines
 
 ## How It Works
 
