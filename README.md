@@ -12,7 +12,7 @@ A lightweight wrapper for [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-0.6B
 
 1. Open the notebook in Colab
 2. Run all cells
-3. Upload an audio file when prompted (prepare a short audio file)
+3. Upload your own audio file, or use the included sample voice files (English/Chinese)
 4. Get your transcription
 
 ## What It Does
