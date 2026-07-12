@@ -6,6 +6,14 @@
 
 A lightweight wrapper for [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-0.6B), providing a simple pipeline to transcribe audio files to text using Qwen's automatic speech recognition models. Runs in Google Colab with GPU acceleration.
 
+## Use Cases
+
+- **Video subtitling** — Auto-generate subtitles for YouTube, courses, and marketing videos
+- **Call centre analytics** — Transcribe customer calls for sentiment analysis and QA
+- **Meeting minutes** — Auto-generate searchable summaries from meeting recordings
+- **Podcast show notes** — Convert episodes to written content and timestamps
+- **Voice-to-text integration** — Embed speech-to-text into apps and automation pipelines
+
 ## Quick Start
 
 <a href="https://colab.research.google.com/github/wsamuelw/qwen3-asr/blob/main/qwen3-asr.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
@@ -60,14 +68,6 @@ qwen-asr
 librosa
 soundfile
 ```
-
-## Use Cases
-
-- **Video subtitling** — Auto-generate subtitles for YouTube, courses, and marketing videos
-- **Call centre analytics** — Transcribe customer calls for sentiment analysis and QA
-- **Meeting minutes** — Auto-generate searchable summaries from meeting recordings
-- **Podcast show notes** — Convert episodes to written content and timestamps
-- **Voice-to-text integration** — Embed speech-to-text into apps and automation pipelines
 
 ## How It Works
 
