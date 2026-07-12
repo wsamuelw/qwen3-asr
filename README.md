@@ -4,7 +4,7 @@ A lightweight wrapper for [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-0.6B
 
 ## Quick Start
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1reTM-Wo-EaqQIn2BwrDmVl93R_8HE8tU#scrollTo=QSxNjccfn3aQ)
+<a href="https://colab.research.google.com/drive/1reTM-Wo-EaqQIn2BwrDmVl93R_8HE8tU#scrollTo=QSxNjccfn3aQ" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 1. Open the notebook in Colab
 2. Run all cells
