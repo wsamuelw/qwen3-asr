@@ -25,6 +25,19 @@ Audio file (.wav, .mp3, etc.)
   Text output + saved reference file
 ```
 
+## Performance
+
+Estimated transcription times on Google Colab T4 GPU (actual results may vary):
+
+| Model | Audio Duration | Transcription Time | Device |
+|-------|---------------|-------------------|--------|
+| 0.6B  | 10 seconds    | ~2-4 seconds       | T4 GPU |
+| 0.6B  | 1 minute      | ~8-15 seconds      | T4 GPU |
+| 0.6B  | 10 minutes    | ~60-90 seconds     | T4 GPU |
+| 1.7B  | 1 minute      | ~15-25 seconds     | T4 GPU |
+
+Note: CPU transcription is significantly slower (5-10x). Performance depends on GPU type, audio length, and content complexity.
+
 ## Model Options
 
 | Model | Size | Best For |
@@ -64,7 +77,7 @@ soundfile
 1. **Audio loading** — Uses `librosa` to resample any input audio to 16kHz mono WAV (model requirement)
 2. **Model loading** — Loads Qwen3-ASR with bfloat16 precision on GPU (float32 on CPU)
 3. **Transcription** — Runs `model.transcribe()` with automatic language detection
-4. **Output** — Returns transcribed text and saves it to `reference_text.txt`
+4. **Output** — Returns transcribed text and saves it to `transcription.txt`
 
 ## Key Details
 
