@@ -1,5 +1,9 @@
 # qwen3-asr
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3--ASR-yellow)
+
 A lightweight wrapper for [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-0.6B), providing a simple pipeline to transcribe audio files to text using Qwen's automatic speech recognition models. Runs in Google Colab with GPU acceleration.
 
 ## Quick Start
